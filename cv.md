@@ -4,7 +4,7 @@
 ***
  ## **Contact information**
  
- ### Phone: _+375 (33) 377-07-05_
+ ### Phone: _+375 (33) 377-07-06_
 
  ### Email: _luda_grischuk@tut.by_
 

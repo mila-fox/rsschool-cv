@@ -39,11 +39,12 @@
 ***
 ## **Code Examples**
 
-### Build a function that takes in two arguments (salary, bonus). Salary will be an integer, and bonus a boolean.
+### Task:
+### _Build a function that takes in two arguments (salary, bonus). Salary will be an integer, and bonus a boolean._
 
-### If bonus is true, the salary should be multiplied by 10. If bonus is false, the fatcat did not make enough money and must receive only his stated salary.
+### _If bonus is true, the salary should be multiplied by 10. If bonus is false, the fatcat did not make enough money and must receive only his stated salary._
 
-### Return the total figure the individual will receive as a string prefixed with "£"
+### _Return the total figure the individual will receive as a string prefixed with "£"_
 
 
 
@@ -65,27 +66,24 @@
 1. ### style development, drawing up instructions for fonts, colors and sizes;
 1. ### creation of layouts and prototypes;
 1. ### rendering of the interface in graphic editors.
+
 ### Portfolio: <https://www.behance.net/gallery/134770713/Organic-Grocery>
 
 ***
 ## **Education**
 
-### Educational Center for Programming and High Tech (IT-Academy)
+### **Educational Center for Programming and High Tech (IT-Academy)**
 
-* ### Course: UX/UI Design
- <https://docviewer.yandex.com/view/1130000014781727/?*=KiblF8oyZkBh8A4T%2B%2FvAyj6rzxB7InVybCI6InlhLW1haWw6Ly8xNzc4OTIxODUyODExMzcyOTgvMS4yIiwidGl0bGUiOiLQm9GO0LTQvNC40LvQsCDQk9GA0LjRidGD0LoucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIxMTMwMDAwMDE0NzgxNzI3IiwidHMiOjE2NjI1ODQyMTQwMzksInl1IjoiNjYxMzk0ODczMTYzMTczMDMwMiJ9>
+### Course: _UX/UI Design_
+### Сertificate:  <https://docviewer.yandex.com/view/1130000014781727/?*=KiblF8oyZkBh8A4T%2B%2FvAyj6rzxB7InVybCI6InlhLW1haWw6Ly8xNzc4OTIxODUyODExMzcyOTgvMS4yIiwidGl0bGUiOiLQm9GO0LTQvNC40LvQsCDQk9GA0LjRidGD0LoucGRmIiwibm9pZnJhbWUiOmZhbHNlLCJ1aWQiOiIxMTMwMDAwMDE0NzgxNzI3IiwidHMiOjE2NjI1ODQyMTQwMzksInl1IjoiNjYxMzk0ODczMTYzMTczMDMwMiJ9>
+### **Brest State A. Pushkin University**
 
-
-### Brest State A. Pushkin University
-
-* ### Specialization: mathematics and computer science
+### Specialization: _mathematics and computer science._
 
 *** 
 
 ## **Language** 
 
 * ### Russian - native speaker
-* ###  A1 (A2 in process…)
-
-
+* ### English - A1 (A2 in process…)
  

@@ -10,12 +10,21 @@ body {
     line-height: 1.5;
     font-size: 1rem;
     font-size: 18px;
+    margin: 0 auto;
+    max-width: 980px;
 }
 
 .header {
+    background: #f58002;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header div {
     display: flex; 
     align-items: center; 
-    background: #f58002; 
     padding: 20px;
 }
 
@@ -26,9 +35,12 @@ body {
 }
 
 .foto {
-    width: 30%;   
+    width: 130px;   
     border-radius: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
 }
+
 
 .main {
     padding: 20px;
@@ -36,17 +48,59 @@ body {
 
 h2 {
     color: #f58002;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     border-bottom: 2px solid;
     font-size: 26px;
 }
 
-li {
+nav ul {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav li {
+        display: block;
+        margin-left: 0;
+        margin-right: 5px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid #FFFFFF;
+  font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    display: inline-block;
+    border-bottom: 3px solid #f58002;
+}
+
+.anchor:before {
+    display: block;
+    content: " ";
+    margin-top: -180px;
+    height: 180px;
+}
+
+
+.main li {
     margin-left: 20px;
 }
 
-ul {
+.main ul {
     margin-left: 10px;
 }
 
@@ -58,7 +112,7 @@ h3 {
     display: flex;
 }
 
-.trec {
+.code-example {
     display: block;
     display: flex; 
     align-items: center; 
@@ -76,12 +130,16 @@ b {
     color: black;
 }
 
+footer b {
+    color: #f7f5f5;
+}
+
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #f58002; 
-    padding: 10px;
+    padding: 20px;
 }
 
 .year {
@@ -97,16 +155,16 @@ footer {
     display: flex;
     flex-direction: column;
     width: max-content;
+    align-items: center;
 }
 
-.qr-code span {
-    display: block;
-    font-size: 14px;
+.certif {
+    text-decoration: none;
 }
 
-.qr-code a {
-    width: max-content;
-    margin: 0 auto;
+.certif-qr {
+    font-size: 10px;
+    text-align: center;
 }
 
 .contact-list img {
@@ -133,4 +191,98 @@ footer {
 
 .contact-list span {
     display: block;
+}
+
+.behance {
+    width:100%;
+}
+
+.qr-code {
+    width:20%;
+    display: flex;
+
+}
+
+.phone {
+    width:20px;
+    height:20px;
+}
+
+.info {
+    width:20px;
+}
+
+.foot-git {
+    line-height: 0;
+}
+
+.foot-rs {
+    line-height: 0;
+}
+
+.git-hub {
+    width: 37px;
+    height:37px;
+}
+
+.rs-schul {
+    width:80px;
+    height:40px;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.img-wrapper svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+}
+
+@media only screen and (max-width: 550px) {
+    nav ul {
+        display:block;        
+    }
+        
+    nav li {
+        margin-right: 0;
+    }
+       
+    nav li a:hover {
+      font-weight:normal;
+    }
+
+    .header {
+      display: flex;
+    }
+  
+    .header div {
+         padding: 8px;
+         width: 75%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .code-example {
+        font-size: 13px;
+    }
+
+    .anchor:before {
+        display: block;
+        content: " ";
+        margin-top: -230px;
+        height: 230px;
+    }
+           
+    nav li a:hover {
+        font-weight: normal;
+    }
 }

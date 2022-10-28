@@ -1,1 +1,1 @@
-# rsschool-cv
+[My CV](https://mila-fox.github.io/rsschool-cv/)
